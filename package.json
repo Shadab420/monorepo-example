@@ -10,6 +10,7 @@
   "scripts": {
     "run:fe": "lerna run --scope=@shadab420/react-frontend start",
     "run:be": "lerna run --scope=@shadab420/express-backend start",
-    "run:both": "lerna run --parallel start"
+    "run:both": "lerna run --parallel start",
+    "run:test": "npm run test"
   }
 }
